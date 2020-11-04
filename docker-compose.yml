@@ -63,7 +63,7 @@ services:
     depends_on:
       - "mysql"
       - "web"
-    command: "develop_init"
+    command: "sh /usr/local/bin/develop_init"
 
 networks:
   default:

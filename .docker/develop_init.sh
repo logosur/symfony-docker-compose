@@ -1,5 +1,5 @@
 #!/bin/sh
-sleep 10
+sleep 10 
 cd /var/www/html
 # composer install # Uncomment this if you have composer already setup
 # php bin/console d:s:u --force # Uncomment this if you want to update database scheme on every docker compose up
